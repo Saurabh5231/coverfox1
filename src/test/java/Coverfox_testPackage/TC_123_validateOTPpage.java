@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -68,16 +69,23 @@ public static Logger logger;// delcare at global level so we can use
 		logger.info("clicking on save button  ");
 	  //  termpage.OTPwindowresult();
 	
+		
 	}
 	
 	@Test
 	public void validateOTPpage() {
 	logger= logger.getLogger("maven TC 1");
 	PropertyConfigurator.configure("log4j.properties");
+	
 
 		//Assert.fail();
 		   boolean expectedresult = termpage.OTPwindow.isDisplayed();
 		Assert.assertTrue(expectedresult,"popup not Display,TC is failed");
-		logger.info("validating TC result ");	}
+		logger.info("validating TC result ");	
+	
+		Reporter.log("Ashita has changes in code", true);
+	
+	
+	}
 	
 }

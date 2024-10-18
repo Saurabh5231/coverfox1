@@ -85,6 +85,7 @@ public static Logger logger;// delcare at global level so we can use
 	
 		Reporter.log("Ashita has changes in code", true);
 		Reporter.log("Saurabh changes 2", true);
+		Reporter.log("Ashita created a Branch", true);
 	
 	
 	}

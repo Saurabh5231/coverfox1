@@ -84,6 +84,7 @@ public static Logger logger;// delcare at global level so we can use
 		logger.info("validating TC result ");	
 	
 		Reporter.log("Ashita has changes in code", true);
+		Reporter.log("Saurabh changes 2", true);
 	
 	
 	}

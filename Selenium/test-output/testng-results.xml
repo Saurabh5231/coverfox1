@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[browser launching]]>
+    </line>
+    <line>
+      <![CDATA[ Waiting...]]>
+    </line>
+    <line>
+      <![CDATA[redirecting to Insurance]]>
+    </line>
+    <line>
+      <![CDATA[redirecting to Term]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Terminsurance]]>
+    </line>
+    <line>
+      <![CDATA[clicking on gender]]>
+    </line>
+    <line>
+      <![CDATA[clicking on age]]>
+    </line>
+    <line>
+      <![CDATA[selecting on age]]>
+    </line>
+    <line>
+      <![CDATA[Entering name]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[clicking in save button ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-09T13:17:54 IST" name="Default suite" finished-at="2024-10-09T13:18:16 IST" duration-ms="21906">
+    <groups>
+    </groups>
+    <test started-at="2024-10-09T13:17:54 IST" name="Default test" finished-at="2024-10-09T13:18:16 IST" duration-ms="21906">
+      <class name="Coverfox_testPackage.TC_123_validateOTPpage">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:Coverfox_testPackage.TC_123_validateOTPpage@51399530]" started-at="2024-10-09T13:17:54 IST" name="openbrowser" finished-at="2024-10-09T13:18:02 IST" duration-ms="7533" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser launching]]>
+            </line>
+            <line>
+              <![CDATA[ Waiting...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="RedirecttoTermInsurance()[pri:0, instance:Coverfox_testPackage.TC_123_validateOTPpage@51399530]" started-at="2024-10-09T13:18:02 IST" name="RedirecttoTermInsurance" finished-at="2024-10-09T13:18:09 IST" duration-ms="7414" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[redirecting to Insurance]]>
+            </line>
+            <line>
+              <![CDATA[redirecting to Term]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Terminsurance]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RedirecttoTermInsurance -->
+        <test-method is-config="true" signature="EnterBasicdetail()[pri:0, instance:Coverfox_testPackage.TC_123_validateOTPpage@51399530]" started-at="2024-10-09T13:18:09 IST" name="EnterBasicdetail" finished-at="2024-10-09T13:18:16 IST" duration-ms="6428" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on gender]]>
+            </line>
+            <line>
+              <![CDATA[clicking on age]]>
+            </line>
+            <line>
+              <![CDATA[selecting on age]]>
+            </line>
+            <line>
+              <![CDATA[Entering name]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[clicking in save button ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EnterBasicdetail -->
+        <test-method signature="validateOTPpage()[pri:0, instance:Coverfox_testPackage.TC_123_validateOTPpage@51399530]" started-at="2024-10-09T13:18:16 IST" name="validateOTPpage" finished-at="2024-10-09T13:18:16 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOTPpage -->
+      </class> <!-- Coverfox_testPackage.TC_123_validateOTPpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

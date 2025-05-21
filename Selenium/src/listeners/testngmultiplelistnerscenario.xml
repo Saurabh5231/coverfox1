@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.Listner_class"></listener>
+	</listeners>
+  <test thread-count="5" name="listnerformultiple">
+    <classes>
+      <class name="listeners.Listner_testNG_class_forchecktrsaction"/>
+      <class name="listeners.Listner_testNGclass"/>
+    </classes>
+  </test> <!-- listnerformultiple -->
+</suite> <!-- Suite -->

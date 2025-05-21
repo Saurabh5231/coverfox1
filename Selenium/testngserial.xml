@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="serialsuite">
+  <test thread-count="5" name="serialrun">
+    <classes>
+      <class name="TestNG.Meesho"/>
+      <class name="TestNG.flipkart"/>
+      <class name="TestNG.amazon"/>
+    </classes>
+  </test> <!-- serialrun -->
+</suite> <!-- serialsuite -->
